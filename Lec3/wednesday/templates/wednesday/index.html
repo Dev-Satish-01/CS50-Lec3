@@ -1,0 +1,15 @@
+{% load static %}
+
+<!DOCTYPE html>
+<head>
+    <title>wednesday?</title>
+    <link href="{%  static 'wednesday/styles.css'  %}" rel="stylesheet">
+</head>
+<body>
+    {% if wednesday %}
+        <h1>YES</h1>
+    {% else %}
+        <h1>NO</h1>
+    {% endif %}
+</body>
+</html>
